@@ -1,0 +1,16 @@
+1. Need to install node.js 
+
+// to install playwright 
+
+2. npm init playwright@latest
+
+3. To run tests in chrome 
+
+//To run tests in chrome 
+npx playwright test --project=chromium --headed
+
+npx playwright test --project=chromium
+
+4. If the test needs to be run headless which is faster 
+
+npx playwright test --project=chromium
